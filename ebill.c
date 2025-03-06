@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Enter the amount");
+    float units, bill = 0.0;
 
-    return 0;
+    printf("Enter the number of units consumed: ");
+    scanf("%f", &units);
 }

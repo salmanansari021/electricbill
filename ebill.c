@@ -19,4 +19,9 @@ int main() {
     else {
         bill = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;   
     }
+    float fixedCharges = 20.0;   
+    float tax = 0.18;   
+    
+    bill += fixedCharges;
+    float totalBill = bill + (bill * tax);
 }

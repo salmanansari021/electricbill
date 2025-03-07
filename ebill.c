@@ -24,4 +24,9 @@ int main() {
     
     bill += fixedCharges;
     float totalBill = bill + (bill * tax);
+
+      
+    printf("Total electricity bill: %.2f\n", totalBill);
+
+    return 0;
 }
